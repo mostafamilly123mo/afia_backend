@@ -240,7 +240,7 @@ router.get('/clinic/:id', Auth(['Admin', 'Nurse']), TryCatch(async (req, res) =>
     let clinicPatients = await Appointment.findAll({
         where: { clinicId, date: { [Op.gte]: PreviousMonth } },
         attributes: [[sequelize.fn('DISTINCT', sequelize.col('patientId')), 'patientId']],
-        group: ['Appointment.patientId'],
+        group: ['patientId'],
         raw: true
     })
 
@@ -329,7 +329,7 @@ router.get('/clinics/pending_appointments', Auth(['Admin', 'Nurse']), TryCatch(a
         }],
 
         attributes: ['clinic.name', [sequelize.fn('count', sequelize.col('clinicId')), 'count']],
-        group: ['Appointment.clinicId'],
+        group: ['clinicId'],
         raw: true
 
 
