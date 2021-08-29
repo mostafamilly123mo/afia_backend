@@ -114,3 +114,4 @@
 {"message":"appointment is not defined","level":"error"}
 {"message":"appointment is not defined","level":"error"}
 {"message":"appointment is not defined","level":"error"}
+{"message":"Table 'bxn8haeumwsjbkkvmlcv.doctors' doesn't exist","level":"error"}
