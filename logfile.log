@@ -1,0 +1,116 @@
+{"message":"can not get all doctors ","level":"error"}
+{"message":"Doctor.findeAll is not a function","level":"error"}
+{"message":"fdge","level":"error"}
+{"message":"Cannot read property 'findAll' of undefined","level":"error"}
+{"message":"Cannot read property 'findAll' of undefined","level":"error"}
+{"message":"Cannot read property 'validate' of undefined","level":"error"}
+{"message":"Cannot read property 'validate' of undefined","level":"error"}
+{"message":"Cannot read property 'id' of null","level":"error"}
+{"message":"sendResponse is not defined","level":"error"}
+{"message":"allDoctors is not defined","level":"error"}
+{"message":"index is not defined","level":"error"}
+{"message":"hi is not defined","level":"error"}
+{"message":"Cannot read property 'findOne' of undefined","level":"error"}
+{"message":"Cannot set headers after they are sent to the client","level":"error"}
+{"message":"Cannot read property 'length' of null","level":"error"}
+{"message":"Cannot set headers after they are sent to the client","level":"error"}
+{"message":"st is not defined","level":"error"}
+{"message":"Cannot read property 'startTime' of undefined","level":"error"}
+{"message":"Cannot read property 'startTime' of undefined","level":"error"}
+{"message":"Cannot read property 'startTime' of undefined","level":"error"}
+{"message":"Cannot read property 'startTime' of undefined","level":"error"}
+{"message":"Cannot read property 'startTime' of undefined","level":"error"}
+{"message":"Cannot read property 'startTime' of undefined","level":"error"}
+{"message":"Cannot read property 'startTime' of undefined","level":"error"}
+{"message":"hi is not defined","level":"error"}
+{"message":"hi is not defined","level":"error"}
+{"message":"Cannot read property 'startTime' of undefined","level":"error"}
+{"message":"Cannot read property 'startTime' of undefined","level":"error"}
+{"message":"today is not defined","level":"error"}
+{"message":"Invalid value { doctorId: '1' }","level":"error"}
+{"message":"Invalid value { doctorId: '1' }","level":"error"}
+{"message":"Cannot set headers after they are sent to the client","level":"error"}
+{"message":"connect ETIMEDOUT","level":"error"}
+{"message":"Validation error: Email already in use!,\nValidation error: Username already in use!","level":"error"}
+{"message":"Validation error: Email already in use!,\nValidation error: Username already in use!","level":"error"}
+{"message":"user.changed is not a function","level":"error"}
+{"message":"data and salt arguments required","level":"error"}
+{"message":"updatedRow is not defined","level":"error"}
+{"message":"Validation error: Email already in use!,\nValidation error: Username already in use!","level":"error"}
+{"message":"user.changed is not a function","level":"error"}
+{"message":"data and salt arguments required","level":"error"}
+{"message":"data and salt arguments required","level":"error"}
+{"message":"user.changed is not a function","level":"error"}
+{"message":"data and salt arguments required","level":"error"}
+{"message":"Invalid character in statusMessage","level":"error"}
+{"message":"Support for `{where: 'raw query'}` has been removed.","level":"error"}
+{"message":"WHERE parameter \"patientId\" has invalid \"undefined\" value","level":"error"}
+{"message":"UserInfo is not defined","level":"error"}
+{"message":"path is not defined","level":"error"}
+{"message":"patientRecord is not defined","level":"error"}
+{"message":"patientData is not defined","level":"error"}
+{"message":"patientData is not defined","level":"error"}
+{"message":"sessions is not defined","level":"error"}
+{"message":"sessions is not defined","level":"error"}
+{"message":"date is not defined","level":"error"}
+{"message":"date is not defined","level":"error"}
+{"message":"ENOENT: no such file or directory, stat 'D:\\Third Year\\Afia Clinic\\clinics-system-api\\.uploads\\Reports\\aliss304report.pdf'","level":"error"}
+{"message":"ENOENT: no such file or directory, stat 'D:\\Third Year\\Afia Clinic\\clinics-system-api\\.uploads\\Reports\\aliss304report.pdf'","level":"error"}
+{"message":"Cannot access 'patientId' before initialization","level":"error"}
+{"message":"Cannot read property 'name' of null","level":"error"}
+{"message":"getPatientID is not defined","level":"error"}
+{"message":"appointment is not defined","level":"error"}
+{"message":"Cannot read property 'id' of undefined","level":"error"}
+{"message":"Cannot read property 'id' of undefined","level":"error"}
+{"message":"path must be absolute or specify root to res.sendFile","level":"error"}
+{"message":"sendResponse is not defined","level":"error"}
+{"message":"FilterObj is not defined","level":"error"}
+{"message":"Expected plain object, array or sequelize method in the options.where parameter of model.destroy.","level":"error"}
+{"message":"Cannot read property 'firstName' of undefined","level":"error"}
+{"message":"Cannot read property 'firstName' of undefined","level":"error"}
+{"message":"AcceptedAppointment is not defined","level":"error"}
+{"message":"Validation error: Email already in use!","level":"error"}
+{"message":"ENOENT: no such file or directory, stat 'D:\\Third Year\\Afia Clinic\\clinics-system-api\\uploads\\Reports\\Akramx304-GeneralReport.pdf'","level":"error"}
+{"message":"reportData is not defined","level":"error"}
+{"message":"ENOENT: no such file or directory, stat 'D:\\Third Year\\Afia Clinic\\clinics-system-api\\uploads\\Reports\\Akramx304-GeneralReport.pdf'","level":"error"}
+{"message":"Can't set headers after they are sent.","level":"error"}
+{"message":"Unknown column 'appointment.state' in 'where clause'","level":"error"}
+{"message":"Unknown column 'appointment.name' in 'field list'","level":"error"}
+{"message":"Unknown column 'clinic.name' in 'field list'","level":"error"}
+{"message":"Unknown column 'appointment.name' in 'field list'","level":"error"}
+{"message":"Validation error: Day must be a week day","level":"error"}
+{"message":"notNull Violation: log.type cannot be null","level":"error"}
+{"message":"notNull Violation: log.type cannot be null","level":"error"}
+{"message":"notNull Violation: log.type cannot be null","level":"error"}
+{"message":"notNull Violation: log.type cannot be null","level":"error"}
+{"message":"notNull Violation: log.type cannot be null","level":"error"}
+{"message":"notNull Violation: log.type cannot be null","level":"error"}
+{"message":"notNull Violation: log.type cannot be null","level":"error"}
+{"message":"notNull Violation: log.type cannot be null","level":"error"}
+{"message":"notNull Violation: log.type cannot be null","level":"error"}
+{"message":"notNull Violation: log.type cannot be null","level":"error"}
+{"message":"LogToDataBase is not a function","level":"error"}
+{"message":"Cannot read property 'firstName' of null","level":"error"}
+{"message":"Cannot read property 'firstName' of null","level":"error"}
+{"message":"Cannot read property 'firstName' of null","level":"error"}
+{"message":"Cannot read property 'firstName' of null","level":"error"}
+{"message":"Cannot read property 'firstName' of null","level":"error"}
+{"message":"Cannot read property 'firstName' of null","level":"error"}
+{"message":"Cannot read property 'firstName' of null","level":"error"}
+{"message":"Cannot read property 'firstName' of null","level":"error"}
+{"message":"AppointmentInfo is not defined","level":"error"}
+{"message":"PatientInfo is not defined","level":"error"}
+{"message":"appointment is not defined","level":"error"}
+{"message":"consultation is not defined","level":"error"}
+{"message":"data is not defined","level":"error"}
+{"message":"data is not defined","level":"error"}
+{"message":"Cannot read property '0' of undefined","level":"error"}
+{"message":"Cannot read property '0' of undefined","level":"error"}
+{"message":"Cannot read property 'TotalConfirmed' of undefined","level":"error"}
+{"message":"Cannot read property 'TotalConfirmed' of undefined","level":"error"}
+{"message":"Cannot read property 'TotalConfirmed' of undefined","level":"error"}
+{"message":"Cannot read property 'TotalConfirmed' of undefined","level":"error"}
+{"message":"Cannot read property 'TotalConfirmed' of undefined","level":"error"}
+{"message":"appointment is not defined","level":"error"}
+{"message":"appointment is not defined","level":"error"}
+{"message":"appointment is not defined","level":"error"}

@@ -1,0 +1,23 @@
+{
+    "development": {
+        "username": "root",
+        "password": "root",
+        "database": "clinicsystem",
+        "host": "127.0.0.1",
+        "dialect": "mysql"
+    },
+    "test": {
+        "username": "root",
+        "password": null,
+        "database": "database_test",
+        "host": "127.0.0.1",
+        "dialect": "mysql"
+    },
+    "production": {
+        "username": "umpkcdhc69cnlvwe",
+        "password": "yHwggXZBdkFLQEpob5tB",
+        "database": "bp71voldvmxhzwcws3ve",
+        "host": "bp71voldvmxhzwcws3ve-mysql.services.clever-cloud.com",
+        "dialect": "mysql"
+    }
+}

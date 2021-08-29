@@ -1,0 +1,90 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>report</title>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .row-content {
+            margin-bottom: 30px;
+        }
+        .jumbotron {
+            padding: 2rem 1rem;
+            margin-bottom: 2rem;
+            background-color: #e9ecef;
+            border-radius: .3rem;
+        }
+        p {
+            font-size: 16px;
+        }
+        body {
+            padding: 40px;
+        }
+        span {
+            font-style: unset;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row row-content">
+
+            <div class="col-xs-12 pb-1 text-center" style="border-bottom: 2px solid #FF9D9D;">
+                <h4 style="vertical-align: sub;" class="mr-4 mb-1 d-inline-block">Patient Details</h4>
+                <img src="https://i.ibb.co/zZ8Npyp/logo-1.png" width="70" height="53" class="img-fluid mb-1" />
+            </div>
+        </div>
+        <div class="row row-content">
+            <div class="col-xs-12 text-center">
+                <% if(patient.gender==="Male" ) { %>
+                    <img className="img-fluid rounded-circle" height="110" width="120"
+                        src="https://i.ibb.co/yn45TNw/undraw-male-avatar-323b.png" />
+                    <% } else{ %>
+                        <img className="img-fluid rounded-circle" height="110" width="120"
+                            src="https://i.ibb.co/D998cp3/undraw-female-avatar-w3jk.png" />
+                        <% } %>
+            </div>
+        </div>
+        <% if (patient) { %>
+            <div class="row row-content">
+                <div class="col-xs-6 mt-2 text-center" style="border-right: 1px solid #FF9D9D; height: 100vh;">
+                    <p class="mb-4">Name : <%= patient.firstName + ' ' + patient.lastName %>
+                    </p>
+                    <p class="mb-4">Gender : <%= patient.gender %>
+                    </p>
+                    <p class="mb-4">Date : <%= patient.birthday %>
+                    </p>
+                    <p class="mb-4">length : <%= patient.length %>
+                    </p>
+                    <p class="mb-4">Weight : <%= patient.weight %>
+                    </p>
+                    <p class="mb-4">Phone number : <%= patient.phone %>
+                    </p>
+                    <p class="mb-4">Home number : <%= patient.number %>
+                    </p>
+                    <p class="mb-4">Address : <%= patient.address %>
+                    </p>
+                </div>
+                <div class="col-xs-6 mt-2 text-center" style="height: 50vh;">
+                    <p class="mb-4"><span class="fa fa-envelope mr-1"></span> Email : <%= patient.user.email %>
+                    </p>
+                    <p class="mb-4"><span class="fa fa-user mr-1"></span> Username : <%= patient.user.username %>
+                    </p>
+                    <% if(patient.user.password) { %>
+                    <p class="mb-4"><span class="fa fa-lock mr-1"></span> Password : <%= patient.user.password %>
+                    </p>
+                    <% } %>
+                </div>
+            </div>
+            <% } %>
+</body>
+
+</html>
