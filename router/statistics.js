@@ -104,7 +104,7 @@ router.get('/public', Auth(['Admin', 'Nurse']), TryCatch(async (req, res) => {
     let gender = await Patient.findAll({
         where: {},
         attributes: ['gender', [sequelize.fn('count', sequelize.col('gender')), 'count']],
-        group: ['patients.gender'],
+        group: ['gender'],
         raw: true
     })
     // console.log(gender)
