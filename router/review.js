@@ -60,7 +60,7 @@ router.post('/', Auth(['Patient']), TryCatch(async (req, res) => {
 //Get all reviews
 router.get('/', Auth(['Admin']), TryCatch(async (req, res) => {
 
-    let reviews = await Review.findAll({ attributes: Reviewinfo })
+    let reviews = await Review.findAll({ attributes: Reviewinfo , include : Patient })
 
     if (reviews.length == 0)
         return SendResponseWithMessage(res, 404, 'There are no reviews.')
@@ -74,7 +74,8 @@ router.get('/readed', Auth(['Admin']), TryCatch(async (req, res) => {
 
     let reviews = await Review.findAll({
         where: { readed: true },
-        attributes: Reviewinfo
+        attributes: Reviewinfo,
+        include : Patient
     })
 
     if (reviews.length == 0)
@@ -89,7 +90,8 @@ router.get('/un_readed', Auth(['Admin']), TryCatch(async (req, res) => {
 
     let reviews = await Review.findAll({
         where: { readed: false },
-        attributes: Reviewinfo
+        attributes: Reviewinfo,
+        include : Patient
     })
     if (reviews.length == 0)
         return SendResponseWithMessage(res, 404, 'There are no un readed reviews.')
@@ -136,7 +138,7 @@ router.patch('/id/:id', Auth(['Admin']), TryCatch(async (req, res) => {
     let isFound = await Review.findOne({ where: { id } })
     if (!isFound) return SendResponseWithMessage(res, 404, 'There no review has this id.')
 
-    let updatedRow = await Review.update({ readed: true }, {
+    let updatedRow = await Review.update({ readed: req.body.readed }, {
         where: { id },
         returning: true,
         plain: true

@@ -114,4 +114,11 @@
 {"message":"appointment is not defined","level":"error"}
 {"message":"appointment is not defined","level":"error"}
 {"message":"appointment is not defined","level":"error"}
-{"message":"Table 'bxn8haeumwsjbkkvmlcv.doctors' doesn't exist","level":"error"}
+{"message":"Cannot read property 'firstName' of null","level":"error"}
+{"message":"Cannot read property 'firstName' of null","level":"error"}
+{"message":"Cannot read property 'firstName' of null","level":"error"}
+{"message":"Cannot read property 'firstName' of null","level":"error"}
+{"message":"Cannot read property 'firstName' of null","level":"error"}
+{"message":"Cannot read property 'firstName' of null","level":"error"}
+{"message":"Cannot read property 'firstName' of null","level":"error"}
+{"message":"Cannot read property 'firstName' of null","level":"error"}
